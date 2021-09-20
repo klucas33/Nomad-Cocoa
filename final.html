@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <link href="final.css" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <header>
+            <a href="#"><span><i class="fas fa-cog"></i></span></a>
+            <span>ㅣ</span>
+            <a href="#"><span>_</span></a>
+            <a href="#"><span><i class="fas fa-times"></i></span></a>
+        </header>
+        <div class="main_img">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111466.png" alt="kakao">
+        </div>
+        <form class="type" action="./final_1.html">
+            <div class="login">
+                <input class="email" type="text" placeholder="카카오계정 (이메일 또는 전화번호)" required list="email" pattern="^.+@\w+(\.\w+)+$">
+                <input class="password" type="password" placeholder="비밀번호" required minlength="4">
+                <datalist id="email">
+                    <option>apple123@naver.com</option>
+                </datalist>
+            </div>
+            <button>로그인</button>
+            <div class="tick">
+                <input type="checkbox">
+                <label>자동로그인</label>
+                <span><i class="fas fa-question-circle"></i></span>
+            </div>
+        </form>
+        <section class="last">
+            <a href="#"><span>카카오계정 찾기</span></a>
+            <a href="#"><span>비밀번호 재설정</span></a>
+        </section>
+
+    </div>
+</body>
+</html>
